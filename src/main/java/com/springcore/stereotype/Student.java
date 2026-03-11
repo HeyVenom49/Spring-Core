@@ -12,6 +12,7 @@ public class Student {
     private String studentName;
     @Value("Berlin")
     private String city;
+    // We're using spring expression language
     @Value("#{courses}")
     private List<String> courses;
 
